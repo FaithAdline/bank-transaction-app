@@ -1,0 +1,79 @@
+/* Apply a background color and text color to the entire page */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Change to your preferred background color */
+}
+
+/* Style the header with a background color, text color, padding, and remove margin */
+h1 {
+  background-color: #3498db; /* Change to your preferred header background color */
+  color: #fff; /* Change to your preferred header text color */
+  padding: 20px;
+  margin: 0;
+}
+
+/* Style the table with width, border-collapse, and border properties */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff; /* Change to your preferred table background color */
+}
+
+/* Style table headers with a background color */
+th {
+  background-color: #f2f2f2; /* Change to your preferred header background color */
+}
+
+/* Style table cells with padding and text alignment */
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style the form container with flex layout and a maximum width */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Style labels with margin */
+form label {
+  margin: 5px 0;
+}
+
+/* Style input fields with padding and margin */
+input {
+  padding: 8px;
+  margin: 5px 0;
+}
+/* Style the search bar with a green background and white text */
+.search-bar {
+  background-color: #4CAF50; /* Green background color */
+}
+
+.search-bar input {
+  color: #fff; /* White text color */
+}
+
+
+/* Style the submit button with background color, text color, padding, and cursor */
+button {
+  background-color: #3498db; /* Change to your preferred button background color */
+  color: #fff; /* Change to your preferred button text color */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover with a different background color */
+button:hover {
+  background-color: #2980b9; /* Change to your preferred button background color on hover */
+}
+
+
+
